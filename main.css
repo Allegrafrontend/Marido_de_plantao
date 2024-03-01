@@ -1,0 +1,60 @@
+body{
+    font-family: "Lato", sans-serif;
+    background-color: #EEE9F2;
+}
+
+.navbar{
+    background-color: #146583;
+}
+#cabecalho .nav .nav-link, .navbar-brand, 
+.navbar-brand:hover{
+    color: #C8C0CE;
+}
+.img-sobre{
+    max-width: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+}
+.button-form{
+    background-color: #146583;
+    color: #C8C0CE;   
+}
+.btn:hover{
+    border: 1px solid black;
+}
+.color-text{
+    color: #0D6EFD;
+}
+#servicos{
+    background-color: #146583;
+}
+.color-servicos{
+    color:#C8C0CE;
+}
+.color-p-servicos{
+    color: #EEE9F2;
+}
+.logo-social{
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 440px){
+    .carousel-item img{
+        height: 280px;
+    }
+    .img-sobre{
+        display: none;
+    }
+}
+
